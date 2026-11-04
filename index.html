@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'eredità — Joyería Fina en Plata & Oro</title>
+    <!-- Fuentes tipográficas elegantes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="logo-text">L'eredità</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+                <li><a href="#citas" class="nav-link">Agendar Cita</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-container container">
+                <span class="subtitle-brand">Joyería Artesanal en Plata & Oro</span>
+                <h1 class="brand-title">L'eredità</h1>
+                <p class="hero-tagline">El lujo del detalle hecho a mano, en tonalidades cálidas y atemporales.</p>
+                <div class="hero-buttons">
+                    <a href="#catalogo" class="btn btn-primary">Ver Colección</a>
+                    <a href="#citas" class="btn btn-outline">Cita Personalizada</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section class="about section" id="nosotros">
+            <div class="container grid about-grid">
+                <div class="about-content">
+                    <span class="section-subtitle">Nuestra Esencia</span>
+                    <h2 class="section-title">Tradición, Sofisticación e Innovación</h2>
+                    <p class="about-description">
+                        En <strong>L'eredità</strong> priorizamos el trabajo y acabado a mano sobre metales nobles. Diseñamos y fabricamos piezas exclusivas en <strong>Plata Ley 925</strong> y <strong>Oro Amarillo de 18K</strong> de origen ético, cuidando cada textura, pulido y forma sutil.
+                    </p>
+                    <div class="pillars-container">
+                        <div class="pillar-card">
+                            <h3>Plata Ley 925</h3>
+                            <p>Manufactura artesanal con brillo natural y pulido espejo en acabados sobrios y lisos.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <h3>Oro Fino 18K</h3>
+                            <p>Piezas atemporales diseñadas para perdurar en el tiempo, priorizando formas orgánicas y finas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catálogo Interactivo -->
+        <section class="catalog section" id="catalogo">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Piezas Esenciales</span>
+                    <h2 class="section-title">Catálogo de Joyería</h2>
+                </div>
+
+                <!-- Filtros del Catálogo -->
+                <div class="catalog-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="anillos">Anillos</button>
+                    <button class="filter-btn" data-filter="collares">Collares</button>
+                    <button class="filter-btn" data-filter="aretes">Aretes</button>
+                </div>
+
+                <!-- Grid de Productos -->
+                <div class="catalog-grid grid">
+                    
+                    <!-- Producto 1: Anillo de Plata Liso -->
+                    <div class="product-card" data-category="anillos">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80" alt="Anillo de Plata Fina Liso" class="product-img">
+                            <span class="badge">Plata Ley 925</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Anillos</span>
+                            <h3 class="product-title">Anillo Plata Essentielle</h3>
+                            <p class="product-desc">Banda minimalista moldeada artesanalmente en plata estérlina con acabado mate satinado.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$ 140.000 COP</span>
+                                <button class="btn-detail" data-name="Anillo Plata Essentielle" data-price="$ 140.000 COP" data-desc="Elaborado a mano en Plata Ley 925 pura. Diseño ergonómico, ligero y elegante sin estridencias." data-img="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80">Ver Detalle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2: Cadena y Dije de Plata -->
+                    <div class="product-card" data-category="collares">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80" alt="Collar Dije de Plata Minimalista" class="product-img">
+                            <span class="badge">Plata Ley 925</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Collares</span>
+                            <h3 class="product-title">Collar Eredità Círculo Fino</h3>
+                            <p class="product-desc">Dije geométrico en plata maciza suspendido de una cadena delgada pulida al detalle.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$ 195.000 COP</span>
+                                <button class="btn-detail" data-name="Collar Eredità Círculo Fino" data-price="$ 195.000 COP" data-desc="Cadena de 45 cm con cierre artesanal y dije pulido a mano. Estilo limpio alusivo a la platería fina." data-img="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80">Ver Detalle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3: Aretes Candongas de Plata -->
+                    <div class="product-card" data-category="aretes">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80" alt="Aretes y Candongas en Plata" class="product-img">
+                            <span class="badge">Plata Ley 925</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Aretes</span>
+                            <h3 class="product-title">Candongas Plata Silueta</h3>
+                            <p class="product-desc">Aretes de forma orgánica en plata refinada, ligeros y de brillo cálido suave.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$ 135.000 COP</span>
+                                <button class="btn-detail" data-name="Candongas Plata Silueta" data-price="$ 135.000 COP" data-desc="Piezas forjadas a mano con broche cómodo y seguro. Ideal para destacar la sobriedad del metal puro." data-img="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80">Ver Detalle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4: Anillo de Oro 18K Liso -->
+                    <div class="product-card" data-category="anillos">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80" alt="Anillo de Oro Fino Liso" class="product-img">
+                            <span class="badge">Oro 18K</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Anillos</span>
+                            <h3 class="product-title">Anillo Argolla Oro Aurum</h3>
+                            <p class="product-desc">Argolla clásica trabajada en oro amarillo de 18 kilates con perfil refinado.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$ 650.000 COP</span>
+                                <button class="btn-detail" data-name="Anillo Argolla Oro Aurum" data-price="$ 650.000 COP" data-desc="Joya maciza en oro de 18K con acabado abrillantado tradicional y sellado de pureza." data-img="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=800&q=80">Ver Detalle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 5: Collar Cadena en Oro -->
+                    <div class="product-card" data-category="collares">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80" alt="Gargantilla y Cadena de Oro Fino" class="product-img">
+                            <span class="badge">Oro 18K</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Collares</span>
+                            <h3 class="product-title">Cadena Tejido Fino Oro</h3>
+                            <p class="product-desc">Cadena sutil en oro amarillo forjada eslabón por eslabón con maestría artesanal.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$ 720.000 COP</span>
+                                <button class="btn-detail" data-name="Cadena Tejido Fino Oro" data-price="$ 720.000 COP" data-desc="Gargantilla atemporal de oro amarillo 18K. Diseñada para lucir sola o combinada." data-img="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80">Ver Detalle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 6: Aretes Topos en Oro -->
+                    <div class="product-card" data-category="aretes">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80" alt="Aretes Topos en Oro Fino" class="product-img">
+                            <span class="badge">Oro 18K</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Aretes</span>
+                            <h3 class="product-title">Topos Esfera Oro 18K</h3>
+                            <p class="product-desc">Topos clásicos esféricos en oro pulido, elegantes y perfectos para cualquier ocasión.</p>
+                            <div class="product-footer">
+                                <span class="product-price">$ 380.000 COP</span>
+                                <button class="btn-detail" data-name="Topos Esfera Oro 18K" data-price="$ 380.000 COP" data-desc="Fabricados íntegramente en oro amarillo 18K con sistema de rosca de alta protección." data-img="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80">Ver Detalle</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Citas & Atención Personalizada -->
+        <section class="booking section" id="citas">
+            <div class="container">
+                <div class="booking-wrapper grid">
+                    <div class="booking-info">
+                        <span class="section-subtitle">Atención Personalizada</span>
+                        <h2 class="section-title">Agenda tu Cita con Nosotros</h2>
+                        <p>Recibe asesoría directa para fabricar o elegir tu joya en Plata 925 u Oro de 18K.</p>
+                        <ul class="benefits-list">
+                            <li>✦ Asesoría en diseño artesanal y selección de metales.</li>
+                            <li>✦ Ajuste de tallas y grabado personalizado de piezas.</li>
+                            <li>✦ Garantía y certificado de autenticidad en cada metal.</li>
+                        </ul>
+                    </div>
+
+                    <form class="booking-form" id="bookingForm">
+                        <h3 class="form-title">Reservar Horario</h3>
+                        <div class="form-group">
+                            <label for="userName">Nombre Completo</label>
+                            <input type="text" id="userName" placeholder="Ej: Diana Morales" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="userEmail">Correo Electrónico</label>
+                            <input type="email" id="userEmail" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="userPhone">Teléfono / WhatsApp</label>
+                            <input type="tel" id="userPhone" placeholder="+57 300 000 0000" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookingDate">Fecha</label>
+                                <input type="date" id="bookingDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bookingTime">Hora</label>
+                                <select id="bookingTime" required>
+                                    <option value="">Selecciona hora</option>
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="02:00 PM">02:00 PM</option>
+                                    <option value="04:00 PM">04:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">Metal / Servicio de Interés</label>
+                            <select id="serviceType">
+                                <option value="Joyería en Plata Ley 925">Joyería en Plata Ley 925</option>
+                                <option value="Joyería en Oro 18K">Joyería en Oro Amarillo 18K</option>
+                                <option value="Diseño de Joya a medida">Diseño de Joya a medida</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Agendar Cita</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Detalle de Producto -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <div class="modal-body">
+                <img src="" id="modalImg" alt="Producto" class="modal-img">
+                <div class="modal-details">
+                    <h3 id="modalTitle"></h3>
+                    <span id="modalPrice" class="modal-price"></span>
+                    <p id="modalDesc"></p>
+                    <a id="modalWhatsapp" href="#" target="_blank" class="btn btn-primary">Consultar por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Confirmación de Cita -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content modal-success">
+            <span class="modal-close" id="bookingClose">&times;</span>
+            <div class="modal-success-icon">✓</div>
+            <h3>¡Cita Solicitada con Éxito!</h3>
+            <p id="bookingSummary"></p>
+            <button class="btn btn-primary" id="bookingOkBtn">Entendido</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid grid">
+            <div class="footer-brand">
+                <h3 class="logo-text">L'eredità</h3>
+                <p>Joyería fina hecha a mano en Plata 925 y Oro 18K.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Atención al Cliente</h4>
+                <p>WhatsApp: +57 316 743 2494</p>
+                <p>Email: contacto@lereditajoyeria.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 L'eredità Joyería. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
